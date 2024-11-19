@@ -1,12 +1,8 @@
-
-
-
 import VerifyForm from "@/components/auth/VerifyForm";
 import Image from "next/image";
+import { Suspense } from "react";
 
 const VerifyPage = () => {
-
-
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <div className="flex flex-col gap-7 items-center bg-foreground py-5 px-4 sm:px-8 rounded-lg w-[400px] mx-10">
@@ -18,7 +14,9 @@ const VerifyPage = () => {
           <span className="font-semibold text-lg">Verfy your Account.</span>
         </div>
 
-        <VerifyForm />
+        <Suspense>
+          <VerifyForm />
+        </Suspense>
       </div>
     </div>
   );
