@@ -7,7 +7,7 @@ type Props = {
   
 };
 
-const SocialAuth = ({btnText, ...props}: Props) => {
+const SocialAuth = ({btnText, }: Props) => {
   return (
     <Button
       type="submit"

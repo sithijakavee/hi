@@ -1,7 +1,7 @@
 
-type Props = {};
 
-const Divider = (props: Props) => {
+
+const Divider = () => {
   return (
     <div className="flex items-center justify-between w-full gap-2">
       <div className="w-full h-px bg-black" />

@@ -13,9 +13,8 @@ import { MoonLoader } from "react-spinners";
 import { useToast } from "@/hooks/use-toast";
 import { useRouter } from "next/navigation";
 
-type Props = {};
 
-const SignInForm = (props: Props) => {
+const SignInForm = () => {
   const { toast } = useToast();
   const router = useRouter()
 

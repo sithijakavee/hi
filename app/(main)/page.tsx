@@ -1,13 +1,8 @@
-import { auth } from '@/auth'
-import React from 'react'
 
-type Props = {}
-
-const page = async (props: Props) => {
-  const session = await auth()
+const HomePage = async () => {
   return (
-    <div>page</div>
+    <div>HomePage</div>
   )
 }
 
-export default page
+export default HomePage

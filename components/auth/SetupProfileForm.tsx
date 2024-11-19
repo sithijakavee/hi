@@ -7,9 +7,9 @@ import { useForm } from "react-hook-form";
 import { SetupProfileFormSchema, SetupProfileFormSchemaType } from "@/schemas";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { imageUpload } from "@/lib/cloudinaryUpload";
-type Props = {};
 
-const SetupProfileForm = (props: Props) => {
+
+const SetupProfileForm = () => {
 
 
 

@@ -34,7 +34,7 @@ const FormSchema = z.object({
   }),
 });
 
-const page = () => {
+const VerifyPage = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const t = searchParams.get("t");
@@ -157,4 +157,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default VerifyPage;

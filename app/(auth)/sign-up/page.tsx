@@ -1,12 +1,11 @@
 import SignUpForm from "@/components/auth/SignUpForm";
 import Image from "next/image";
 import Link from "next/link";
-import { useForm } from "react-hook-form";
-
-type Props = {};
 
 
-const page = (props: Props) => {
+
+
+const SignUpPage = () => {
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <div className="flex flex-col gap-7 items-center bg-foreground py-5 px-4 sm:px-8 rounded-lg w-[400px] mx-10">
@@ -40,4 +39,4 @@ const page = (props: Props) => {
   );
 };
 
-export default page;
+export default SignUpPage;

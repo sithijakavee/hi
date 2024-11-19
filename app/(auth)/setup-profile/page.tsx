@@ -2,9 +2,9 @@ import SetupProfileForm from '@/components/auth/SetupProfileForm'
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
 
-const page = (props: Props) => {
+
+const SetupProfilePage = () => {
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <div className="flex flex-col gap-7 items-center bg-foreground py-5 px-4 sm:px-8 rounded-lg w-[300px] mx-10">
@@ -23,4 +23,4 @@ const page = (props: Props) => {
   )
 }
 
-export default page
+export default SetupProfilePage
